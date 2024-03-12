@@ -10,14 +10,14 @@
 
 * source (s): Include the source of HWID
 
-## Save mode
+### Save mode
 
 `HWIDmon.NET.exe save <-o|--out [out-file]> <-s|--source>`
 
 * out (o): The HWID data output file (XML)
 * source (s): Include the source of HWID
 
-## Compare mode
+### Compare mode
 
 `HWIDmon.NET.exe compare <-i|--input [in-file]>`
 
@@ -30,6 +30,10 @@ It is simply abbreviation of <u>H</u>ard<u>W</u>are <u>ID</u>.
 https://www.webopedia.com/definitions/hwid/
 
 The identification information that can identify _your computor_ based on unique hardware information or identification, serial things.
+
+Those HWID may contain some secret, even confidential, information such as your IP, MAC address, system component serial id, etc.
+
+**For these reasons, sharing HWID information with others is strongly discouraged.**
 
 ## What is the purpose of this program?
 
